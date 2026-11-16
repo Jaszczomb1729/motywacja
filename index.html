@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pl" data-motyw="dzien">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
+<title>Miasto</title>
+<meta name="description" content="Gra motywacyjna: odhaczaj codzienne obowiązki i buduj własne miasto.">
+<meta name="theme-color" content="#d21f2b">
+<meta name="color-scheme" content="light dark">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="ikona-192.png">
+<link rel="apple-touch-icon" href="ikona-180.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Miasto">
+<meta name="format-detection" content="telephone=no">
+<link rel="preload" href="sofia-sans-condensed.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="sofia-sans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <header class="tablica" id="tablica"></header>
+  <main id="ekran" class="ekran" tabindex="-1"></main>
+  <nav class="zakladki" id="zakladki" aria-label="Ekrany aplikacji"></nav>
+</div>
+<div id="arkusz" class="arkusz" hidden></div>
+<div id="toasty" class="toasty" role="status" aria-live="polite"></div>
+<noscript><p style="padding:24px;font-family:sans-serif">Ta aplikacja wymaga włączonej obsługi JavaScript.</p></noscript>
+<script src="config.js"></script>
+<script src="engine.js"></script>
+<script src="sprites.js"></script>
+<script src="ui.js"></script>
+<script src="ekrany.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

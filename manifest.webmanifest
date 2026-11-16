@@ -1,0 +1,20 @@
+{
+  "name": "Miasto – gra motywacyjna",
+  "short_name": "Miasto",
+  "description": "Odhaczaj codzienne obowiązki i buduj własne miasto.",
+  "lang": "pl",
+  "dir": "ltr",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#163d85",
+  "theme_color": "#d21f2b",
+  "categories": ["productivity", "games"],
+  "icons": [
+    { "src": "ikona-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "ikona-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "ikona-maskowalna-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
